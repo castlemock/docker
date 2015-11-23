@@ -1,4 +1,4 @@
-<p align="center"><img src="http://fortmocks.com/images/fm-logo.jpg" height="410" width="350"></div></p>
+<p align="center"><img src="http://fortmocks.com/images/fm-logo.jpg" height="211" width="245"></div></p>
 
 ## About
 

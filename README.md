@@ -10,7 +10,7 @@ Fort Mocks is completely free and open source (Apache License). It is built with
 
 ## Usage
 Start Fort Mocks by running the following command:
-    
+
     docker run -d -p 8080:8080 fortmocks/fortmocks
 
 Fort Mocks is now accessible from the following IP address:
@@ -23,10 +23,10 @@ Fort Mocks is now accessible from the following IP address:
 
 ## License
 
-Fort Mocks is **licensed** under the **[Apache License](https://github.com/fortmocks/fortmocks/blob/master/LICENSE.txt)**. The terms of the license are as follows:
+Fort Mocks is **licensed** under the **[Apache License](https://github.com/fortmocks/docker/blob/master/LICENSE.txt)**. The terms of the license are as follows:
 
     Apache License
-   
+
     Copyright 2015 Karl Dahlgren and a number of other contributors.
 
     Licensed under the Apache License, Version 2.0 (the "License");

@@ -10,8 +10,11 @@ Fort Mocks is completely free and open source (Apache License). It is built with
 
 ## Usage
 Start Fort Mocks by running the following command:
+    
     docker run -d -p 8080:8080 fortmocks/fortmocks
-Fort Mocks is now accessible from the following IP address: 
+
+Fort Mocks is now accessible from the following IP address:
+
     http://{CONTAINER IP}:8080/fortmocks
 
 ## Links

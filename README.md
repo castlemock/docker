@@ -5,6 +5,8 @@
 [![][travis img]][travis]
 [![][release img]][release]
 [![][license img]][license]
+[![][docker stars img]][docker stars]
+[![][docker pulls img]][docker pulls]
 
 ## About
 
@@ -77,3 +79,10 @@ Fort Mocks is **licensed** under the **[Apache License](https://github.com/fortm
 
 [license]:LICENSE
 [license img]:https://img.shields.io/badge/License-Apache%202-blue.svg
+
+[docker stars]:https://hub.docker.com/r/fortmocks/fortmocks/
+[docker stars img]:https://img.shields.io/docker/stars/fortmocks/fortmocks.svg
+
+[docker pulls]:https://hub.docker.com/r/fortmocks/fortmocks/
+[docker pulls img]:https://img.shields.io/docker/pulls/fortmocks/fortmocks.svg
+ 	

@@ -1,8 +1,8 @@
 FROM tomcat:8-jre8
-MAINTAINER Karl Dahlgren <karl.dahlgren@fortmocks.com>
+MAINTAINER Karl Dahlgren <karl.dahlgren@castlemock.com>
 
-# Change directory to Tomcat webapps folder and download the latest Fort Mocks war file
-RUN cd /usr/local/tomcat/webapps && curl -o fortmocks.war -fSL https://github.com/fortmocks/fortmocks/releases/download/fortmocks-1.4/fortmocks.war
+# Change directory to Tomcat webapps folder and download the latest Castle Mock war file
+RUN cd /usr/local/tomcat/webapps && curl -o castlemock.war -fSL https://github.com/castlemock/castlemock/releases/download/castlemock-1.4/castlemock.war
 
 # Expose HTTP port 8080
 EXPOSE 8080

@@ -45,7 +45,7 @@ All information about Castle Mock can be found on our website. Follow us on Twit
 
 ## License
 
-Castle Mock is **licensed** under the **[Apache License](https://github.com/castlemock/docker/blob/master/LICENSE.txt)**. The terms of the license are as follows:
+Castle Mock is **licensed** under the **[Apache License](https://github.com/castlemock/docker/blob/master/LICENSE)**. The terms of the license are as follows:
 
     Apache License
 

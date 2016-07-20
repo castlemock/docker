@@ -1,12 +1,4 @@
-<p align="center"><img src="http://castlemock.com/images/fm-logo-small.png"></div></p>
-
 # Castle Mock: Official Docker image
-
-[![][travis img]][travis]
-[![][release img]][release]
-[![][license img]][license]
-[![][docker stars img]][docker stars]
-[![][docker pulls img]][docker pulls]
 
 ## About
 
@@ -35,7 +27,6 @@ Our latest and greatest source of Castle Mock can be found on [GitHub](https://g
 
 ## Communication
 - Website: [http://www.castlemock.com/](http://www.castlemock.com/)
-- Google Group: [castlemock](http://groups.google.com/d/forum/castlemock)
 - Twitter: [@castlemock](http://twitter.com/castlemock)
 - [GitHub Issues](https://github.com/castlemock/castlemock/issues)
 - [Docker](https://hub.docker.com/r/castlemock/castlemock/)
@@ -71,19 +62,4 @@ Castle Mock is **licensed** under the **[Apache License](https://github.com/cast
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-    
-[travis]:https://travis-ci.org/castlemock/castlemock
-[travis img]:https://travis-ci.org/castlemock/castlemock.svg?branch=develop
-
-[release]:https://github.com/castlemock/castlemock/releases
-[release img]:https://img.shields.io/github/release/castlemock/castlemock.svg
-
-[license]:LICENSE
-[license img]:https://img.shields.io/badge/License-Apache%202-blue.svg
-
-[docker stars]:https://hub.docker.com/r/castlemock/castlemock/
-[docker stars img]:https://img.shields.io/docker/stars/castlemock/castlemock.svg
-
-[docker pulls]:https://hub.docker.com/r/castlemock/castlemock/
-[docker pulls img]:https://img.shields.io/docker/pulls/castlemock/castlemock.svg
  	

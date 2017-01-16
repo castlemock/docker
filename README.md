@@ -19,14 +19,14 @@ Castle Mock is now accessible from the following IP address:
 
 ## Downloads
 
-Non-source downloads such as WAR files can be found on our website: [http://www.castlemock.com/](http://www.castlemock.com/).
+Non-source downloads such as WAR files can be found on our website: [https://www.castlemock.com/](https://www.castlemock.com/).
 
 ## Source
 
 Our latest and greatest source of Castle Mock can be found on [GitHub](https://github.com/castlemock/castlemock/).
 
 ## Communication
-- Website: [http://www.castlemock.com/](http://www.castlemock.com/)
+- Website: [https://www.castlemock.com/](https://www.castlemock.com/)
 - Twitter: [@castlemock](http://twitter.com/castlemock)
 - [GitHub Issues](https://github.com/castlemock/castlemock/issues)
 - [Docker](https://hub.docker.com/r/castlemock/castlemock/)

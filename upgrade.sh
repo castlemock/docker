@@ -1,1 +1,2 @@
-sed 's/{$VERSION}/'"$1"'/g' Dockerfile-template > Dockerfile
+VERSION=$(curl https://api.github.com/repos/castlemock/castlemock/tags | jq -r '.[0]["name"]')
+sed 's/{$VERSION}/'${VERSION}'/g' Dockerfile-template > Dockerfile

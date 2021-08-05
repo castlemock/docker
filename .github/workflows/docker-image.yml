@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: castlemock/castlemock:latest,castlemock/castlemock:${{ github.ref }}
+          tags: castlemock/castlemock:latest,castlemock/castlemock:${GITHUB_REF##*/}

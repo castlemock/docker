@@ -1,5 +1,10 @@
 # Castle Mock: Official Docker image
 
+> [!CAUTION]
+> Castle Mock is no longer maintained and will not receive future updates.  
+The repository remains available for reference, but we recommend exploring alternatives for active use.
+Please see **[DEPRECATION](https://github.com/castlemock/castlemock/blob/master/DEPRECATION.md)** for more information.
+
 ## About
 
 Castle Mock is a web application that provides the functionality to mock out RESTful APIs and SOAP web services. This functionality allows client-side developers to completely mimic a server side behaviour and shape the responses themselves.
@@ -8,45 +13,9 @@ Castle Mock enables you to upload both WSDL or WADL files. The web services defi
 
 Castle Mock is completely free and open source (Apache License). It is built with Java and the application itself is deployed to an Apache Tomcat server.
 
-## Usage
-Start Castle Mock by running the following command:
-
-    docker run -d -p 8080:8080 castlemock/castlemock
-
-Castle Mock is now accessible from the following IP address:
-
-    http://{CONTAINER IP}:8080/castlemock
-    
-## Persistence
-The data files created by Castle Mock can be accessed and stored outside the Docker container. In order to achieve this, you need to create a new volume. This is done by using the -v flag. Run the following command to store Castle Mock's data files in the directory your currenty at.  
-
-    docker run -d -p 8080:8080 -v $(pwd):/root/.castlemock castlemock/castlemock
-
-## Downloads
-
-Non-source downloads such as WAR files can be found on our website: [https://www.castlemock.com/](https://www.castlemock.com/).
-
 ## Source
 
 Our latest and greatest source of Castle Mock can be found on [GitHub](https://github.com/castlemock/castlemock/).
-
-## Communication
-- Website: [https://www.castlemock.com/](https://www.castlemock.com/)
-- Twitter: [@castlemock](http://twitter.com/castlemock)
-- [GitHub Issues](https://github.com/castlemock/castlemock/issues)
-- [Docker](https://hub.docker.com/r/castlemock/castlemock/)
-
-## Bugs and Feedback
-
-For bugs, questions and discussions please use the [GitHub Issues](https://github.com/castlemock/castlemock/issues)
-
-## Continuous integration
-
-Castle Mock' continuous integration environment is publicly available and can be access on the following link: [Travis CI](https://travis-ci.org/castlemock/castlemock)
-
-## News and Website
-
-All information about Castle Mock can be found on our website. Follow us on Twitter: [castlemock](http://twitter.com/castlemock).
 
 ## License
 
